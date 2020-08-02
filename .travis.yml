@@ -10,4 +10,5 @@ script:
 deploy:
   provider: firebase
   skip_cleanup: true
-  token: 1//03AfPekTDQBUgCgYIARAAGAMSNwF-L9Irh3MHlIt_0DUzj7D6vO7EPTAK-3dOd2_vOeQ8g2vknGiQC6TjhjpfzNfRfecMRWemQi4
+  token: $FIREBASE_SECRET
+  # token: 1//03AfPekTDQBUgCgYIARAAGAMSNwF-L9Irh3MHlIt_0DUzj7D6vO7EPTAK-3dOd2_vOeQ8g2vknGiQC6TjhjpfzNfRfecMRWemQi4
