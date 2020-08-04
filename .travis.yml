@@ -7,8 +7,8 @@ cache:
   directories:
   - node_modules
 script:
-# - yarn install --frozen-lockfile
-- npm install --frozen-lockfile
+- yarn install
+# - npm install --frozen-lockfile
 - npm run build
 # - npm run test
 deploy:
