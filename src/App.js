@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const cities = ["Kampala", "Nairobi", "Lagos"];
+  console.log(...cities);
   return (
     <div className="App">
       <header className="App-header">
